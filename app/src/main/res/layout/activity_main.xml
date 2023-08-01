@@ -12,7 +12,9 @@
         android:layout_height="50dp"
         android:layout_marginTop="96dp"
         android:autoSizeTextType="uniform"
+        android:gravity="center"
         android:text="We Meet Here 회의"
+        android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold|italic"
         app:layout_constraintTop_toTopOf="parent"
@@ -25,6 +27,8 @@
         android:backgroundTint="#651463FC"
         android:text="가능"
         android:textColor="#000000"
+        android:gravity="center"
+        android:background="@drawable/buttonround"
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="279dp" />
 
@@ -33,9 +37,13 @@
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginBottom="50dp"
+        android:background="@drawable/buttonround"
         android:backgroundTint="#1463fc"
+        android:gravity="center"
         android:text="다음"
+        android:textColor="#FFFFFF"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="46dp" />
 
@@ -46,6 +54,8 @@
         android:backgroundTint="#D9D9D9"
         android:text="불가능"
         android:textColor="#000000"
+        android:gravity="center"
+        android:background="@drawable/buttonround"
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="415dp" />
 
